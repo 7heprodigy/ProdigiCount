@@ -6,9 +6,40 @@
   <base href="/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="stylesheet" href="/src/styles.css"> 
 </head>
 <body>
-  <div>HOLA MUNDO</div>
-  <app-root></app-root>
+  <app-root>
+    <table class="table mt-3 m-3">
+      <thead>
+        <tr>
+          <th scope="col">Id</th>
+          <th scope="col">Tipo de producto</th>
+          <th scope="col">Cantidad de producto</th>
+          <th scope="col">Precio del producto</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">1</th>
+          <td>Mark</td>
+          <td>Otto</td>
+          <td>@mdo</td>
+        </tr>
+        <tr>
+          <th scope="row">2</th>
+          <td>Jacob</td>
+          <td>Thornton</td>
+          <td>@fat</td>
+        </tr>
+        <tr>
+          <th scope="row">3</th>
+          <td>Larry</td>
+          <td>the Bird</td>
+          <td>@twitter</td>
+        </tr>
+      </tbody>
+    </table>
+  </app-root>
 </body>
 </html>
